@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EPOCHS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">EPOCHS</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/epochs_logo_2.png" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#era">ERA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#compiler">Compiler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#scheduler">Scheduler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#ontology">Ontology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#hardware_design">H/W Design & Implementation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Team & Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">
+            <span class="text-primary">EPOCHS</span> Project
+          </h1>
+          <div class="subheading mb-5">Efficient Programmability of Cognitive Heterogeneous Systems</div>
+          <p class="lead mb-5">
+			  EPOCHS is a DARPA-funded interdisciplinary initiative to explore the future of heterogeneous systems for <strong>edge AI applications</strong>.<br>
+			  One of the fundamental goals of EPOCHS is to develop an <strong>agile methodology to quickly design and implement easily programmed domain-specific SoCs</strong> for
+			  real-time cognitive decision engines in mobile AI/IoT environments. The project is led by IBM Research in collaboration with Harvard University, Columbia University and 
+			  the University of Illinois at Urbana-Champaign.
+		  </p>
+		  
+		  <p class="lead mb-5">
+			  <p class="text-muted text-center"><strong>Use Cases and Applications</strong></p>
+			  <div class="card-deck">
+				  <div class="card border-warning">
+					  <div class="card-body text-center">
+						  <p class="text-warning"><strong>Connected and Autonomous Vehicles</strong></p>
+					  </div>
+				  </div>
+				  <div class="card border-success">
+					  <div class="card-body text-center">
+						  <p class="text-success"><strong>5G Communications and Edge Computing</strong></p>
+					  </div>
+				  </div>
+				  <div class="card border-danger">
+					  <div class="card-body text-center">
+						  <p class="text-danger"><strong>Cloud-Backed End-To-End Edge Artificial Intelligence</strong></p>
+					  </div>
+				  </div>
+				  <div class="card border-info">
+					  <div class="card-body text-center">
+						  <p class="text-info"><strong>Security, Privacy and Resiliency</strong></p>
+					  </div>
+				  </div>
+			  </div>
+		  </p>
+		  
+		  <br>
+		  
+		  <p class="lead mb-5">
+			  As the figure below shows, the EPOCHS agile design flow consists of a series of procedural steps that start with the EPOCHS Reference Application (ERA) all the way down 
+			  to the final SoC implementation. Scroll down to find out about each of these  steps in more detail.
+			  <br><br>
+
+			  <div class="row">
+				  <div class="col-md-1"></div>
+				  <div class="col-md-10">
+					  <div class="text-center"><img src="img/epochs_overview_2.png" class="img-fluid" alt="EPOCHS overview"></div>
+				  </div>
+				  <div class="col-md-1"></div>
+			  </div>
+          </p>
+		  <!--
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/augusto-javier-vega">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/augustojv">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/AugustoJVega">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+		  -->
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+	  <!-------------------------------------------- ERA -------------------------------------------->
+	  
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="era">
+        <div class="my-auto">
+          <h2 class="mb-5">EPOCHS Reference Application (ERA)</h2>
+          <p class="lead mb-5">
+		      The <strong>EPOCHS Reference Application (ERA)</strong> serves as the testbed and driving application domain for the development of our domain-specific SoC design 
+			  methodology and associated technologies. Specifically, ERA enables multi-vehicle (cooperative) sensor fusion in future autonomous/connected cars using elements of 
+			  computer vision and vehicle-to-vehicle (V2V) communications. It models an autonomous vehicle that incorporates an on-board <em>sensing and mapping 
+			  fabric</em> for multi-modal sensing and mapping. ERA extends these local perception capabilities with a <em>communication and consensus fabric</em> consisting of V2V 
+			  communications and multi-vehicle map fusion. The ultimate goal is to explore and demonstrate the improvement in perception capability by sharing information with other 
+			  vehicles, and participating in collaborative swarm intelligence.<br>
+			  <strong>Mini-ERA</strong> is a drastically reduced abstraction of the full ERA code, designed to enable initial testing and validation of our agile software-hardware 
+			  design toolchain.
+			  <div class="row">
+				  <div class="col-md-3"></div>
+				  <div class="col-md-6">
+					  <div class="text-center"><img src="img/era_overview.png" class="img-fluid" alt="ERA overview"></div>
+				  </div>
+				  <div class="col-md-3"></div>
+			  </div>
+			  <br>
+			  <button type="button" class="btn btn-git" onclick="window.open('https://github.com/IBM/era','_blank');"><i class="fab fa-github pr-1"></i> ERA</button>
+			  <button type="button" class="btn btn-git" onclick="window.open('https://github.com/IBM/mini-era','_blank');"><i class="fab fa-github pr-1"></i> Mini-ERA</button>
+          </p>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+	  <!-------------------------------------------- COMPILER -------------------------------------------->
+	  
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="compiler">
+        <div class="my-auto">
+          <h2 class="mb-5">Compiler</h2>
+          <p class="lead mb-5">
+			  The compiler infrastructure is being built around <a target="_blank" href="https://publish.illinois.edu/hpvm-project/">HPVM (Heterogeneous Parallel Virtual
+              Machine)</a>. The goal of HPVM is to make heterogeneous systems easier to program and to develop a uniform parallel program representation for heterogeneous systems 
+			  that can capture a wide range of popular parallel hardware (GPUs, vector instruction sets, multicore CPUs, FPGAs, domain-specific accelerators). A particular focus in 
+			  EPOCHS has been on ApproxHPVM, a capability within the compiler toolset that enables accuracy-performance trade-offs in the real-time environment for which EPOCHS (and 
+			  other DSSoC program projects) are positioned.
+
+			  <div class="row">
+				  <div class="col-md-3"></div>
+				  <div class="col-md-6">
+					  <div class="text-center"><img src="img/hpvm_overview.png" class="img-fluid" alt="HPVM overview"></div>
+				  </div>
+				  <div class="col-md-3"></div>
+			  </div>
+			  <br>
+			  <button type="button" class="btn btn-git" onclick="window.open('https://gitlab.engr.illinois.edu/llvm/hpvm-release','_blank');"><i class="fab fa-github pr-1"></i> 
+				  HPVM</button>
+          </p>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+	  <!-------------------------------------------- SCHEDULER -------------------------------------------->
+	  
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="scheduler">
+        <div class="my-auto">
+          <h2 class="mb-5">Scheduler</h2>
+          <p class="lead mb-5">
+			  One of the most challenging aspects of heterogeneous architectures relates to efficient scheduling of application processes (<em>tasks</em>) across the variety of 
+			  options in the chip, especially when real-time execution deadlines must be met. Within the EPOCHS project, we are conceiving an "intelligent" task scheduler for our 
+			  envisioned domain-specific SoC. This initiative is supported through the development of a new open-source tool for fast prototyping of task scheduling policies, called 
+			  <a target="_blank" href="https://arxiv.org/abs/2007.14371">STOMP</a> (<em>Scheduling Techniques Optimization in heterogeneous Multi-Processors</em>), a queue-based  
+			  discrete-event simulator with a convenient interface that allows users and researchers to "plug in" new scheduling policies in a simple manner (figure below). 
+			  Exhaustive experimental campaigns  using STOMP resulted in the development of "intelligent" scheduling policies that can significantly improve application performance 
+			  and real-time requirements when compared against state-of-the-art real-time and heterogeneous schedulers.
+
+			  <div class="row">
+				  <div class="col-md-2"></div>
+				  <div class="col-md-8">
+					  <div class="text-center"><img src="img/stomp_overview_2.png" class="img-fluid" alt="STOMP overview"></div>
+				  </div>
+				  <div class="col-md-2"></div>
+			  </div>
+			  <br>
+			  <button type="button" class="btn btn-git" onclick="window.open('https://github.com/IBM/stomp','_blank');"><i class="fab fa-github pr-1"></i> STOMP</button>
+          </p>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+	  <!-------------------------------------------- ONTOLOGY -------------------------------------------->
+	  
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="ontology">
+        <div class="my-auto">
+          <h2 class="mb-5">Ontology &amp; Design Space Exploration</h2>
+          <p class="lead mb-5">
+			  This step in the methodology is focused on the problem of identifying the right set of program primitives that should be marked as candidates for hardware 
+			  specialization (i.e. accelerators). The Jasmine toolset under development for this purpose (figure below), feeds off of the intermediate graph
+			  representation of the application code that is emitted by the <a href="#compiler">compiler</a>. The iterative interlock between Jasmine and the HPVM compiler
+			  is designed to perform graph match-and-merge operations in order to come up with the right (optimized) choice of accelerator-targeted code blocks that meet
+			  stipulated area and power-performance constraints of the SoC under design.
+
+			  <div class="row">
+				  <div class="col-md-2"></div>
+				  <div class="col-md-8">
+					  <div class="text-center"><img src="img/jasmine_overview.png" class="img-fluid" alt="Jasmine overview"></div>
+				  </div>
+				  <div class="col-md-2"></div>
+			  </div>
+          </p>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+	  <!-------------------------------------------- H/W DESIGN -------------------------------------------->
+	  
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="hardware_design">
+        <div class="my-auto">
+          <h2 class="mb-5">H/W Design & Implementation</h2>
+          <p class="lead mb-5">
+			  The <a target="_blank" href="https://www.esp.cs.columbia.edu">Embedded Systems Platform (ESP)</a> innovation has formed the foundation for our agile hardware (IP)
+			  integration methodology (figure below). It has been made available as an open-source offering. ESP facilitates agile integration across heterogeneous IP blocks, given
+			  a preconfigured NoC (e.g. a 2D mesh) and a specified hardware memory coherence model (e.g. MESI) for a user-preferred programming model. The ESP framework receives the
+			  accelerator primitive recommendations (along with general purpose core counts) from the Jasmine (ontology) toolset. The overall framework anticipates the use of
+			  hierarchical iterative loops that enable the Jasmine-HPVM combo to fine-tune the choice of accelerator primitives based on experimental measurements done on the SoC
+			  (FPGA platform). Once the FPGA-level architecture and implementation are deemed to be finalized, the back-end standard ASIC design flow is invoked.
+
+			  <div class="row">
+				  <div class="col-md-2"></div>
+				  <div class="col-md-8">
+					  <div class="text-center"><img src="img/esp_overview.png" class="img-fluid" alt="ESP overview"></div>
+				  </div>
+				  <div class="col-md-2"></div>
+			  </div>
+			  <br>
+			  <button type="button" class="btn btn-git" onclick="window.open('https://github.com/sld-columbia/esp','_blank');"><i class="fab fa-github pr-1"></i> ESP</button>
+          </p>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+	  <!-------------------------------------------- PUBLICATIONS -------------------------------------------->
+	  
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="publications">
+        <div class="my-auto">
+          <h2 class="mb-5">Relevant Publications</h2>
+		  
+		  <div class="subheading mb-3"></div>
+		  <ul class="fa-ul mb-0">
+
+<li><i class="fa-li fa fa-check"></i>A. Vega, A. Buyuktosunoglu, P. Bose. <strong>Towards “Smarter” Vehicles through Cloud-Backed Swarm Cognition.</strong> IEEE Intelligent Vehicles Symposium (IV). 2018. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>B. Boroujerdian, H. Genc, S. Krishnan, W. Cui, A. Faust, V. Reddi. <strong>MAVBench: Micro Aerial Vehicle Benchmarking.</strong> IEEE/ACM International Symposium on Microarchitecture (MICRO). 2018. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>C. Bulla, L. Alvarez, M. Moreto, R. Bertran, A. Buyuktosunoglu, P. Bose. <strong>ChopStiX: Systematic Extraction of Code-Representative Microbenchmarks.</strong> IEEE International Symposium on Workload Characterization (IISWC). 2018. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>D. Brooks. <strong>Post Von Neumann Computer Architecture.</strong> Army Research Lab. 2018. <em>Tutorial</em></li>
+<li><i class="fa-li fa fa-check"></i>J. Bachrach, S. Eldridge, R. Lin, J. Koenig, A. Izraelevitz. <strong>CCC 2018 Keynote.</strong> 1st Chisel Community Conference (CCC). 2018. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>P. Bose. <strong>Resilient Computing under Energy Constraints.</strong> Workshop on Modeling & Simulation of Systems and Applications (ModSim). 2018. <em>Invited Talk</em></li>
+<li><i class="fa-li fa fa-check"></i>P. Bose. <strong>Efficient and Resilient Systems in the Cognitive Era.</strong> EE Colloquium Series. 2018. <em>Invited Talk</em></li>
+<li><i class="fa-li fa fa-check"></i>P. Whatmough,  S. Lee, M. Donato, H.-C. Hsueh, S. Xi, U. Gupta, L. Pentecost, G. Ko, D. Brooks, G.-Y. Wei. <strong>SMIV: A 16nm SoC with Efficient and Flexible DNN Acceleration for Intelligent IoT Devices.</strong> HotChips. 2018. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>R. Joshi. <strong>Memories Forever.</strong> EuroMicro Conference. 2018. <em>Keynote Talk</em></li>
+<li><i class="fa-li fa fa-check"></i>R. Joshi. <strong>Brain Storming in Silicon.</strong> IEEE Nanotechnology Symposium. 2018. <em>Distinguished Lecture Talk</em></li>
+<li><i class="fa-li fa fa-check"></i>S. Eldridge. <strong>Chisel Libraries Breakdown.</strong> 1st Chisel Community Conference (CCC). 2018. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>S. Eldridge, A. Izraelevitz. <strong>Annotations and Hardware Construction Languages.</strong> 1st Chisel Community Conference (CCC). 2018. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>S. Lee, P. Whatmough, N. Mulholland, P. Hansen, D. Brooks, G.-Y. Wei. <strong>A Wide Dynamic Range Sparse FC-DNN Processor with Multi-Cycle Banked SRAM Read and Adaptive Clocking in 16nm FinFET.</strong> IEEE European Solid State Circuits Conference (ESSCIRC). 2018. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>E. Sisbot, A. Vega, A. Paidimarri, J.-D. Wellman, A. Buyuktosunoglu, P. Bose, D. Trilla. <strong>Multi-Vehicle Map Fusion Using GNU Radio.</strong> GNU Radio Conference (GRCon). 2019. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>H. Sharif, P. Srivastava, M. Huzaifa, M. Kotsifakou, K. Joshi, Y. Sarita, N. Zhao, V. Adve, S Misailovic, S Adve. <strong>ApproxHPVM: A Portable Compiler IR for Accuracy-Aware Optimizations.</strong> ACM International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA). 2019. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>J. Leng, A. Buyuktosunoglu, R. Bertran, P. Bose, V. Reddi. <strong>Asymmetric Resilience for Accelerator-Rich Systems.</strong> IEEE Computer Architecture Letters (CAL). 2019. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>J. Vetter, P. Bose. <strong>ModSim Challenges for Easily Programmable Heterogeneous Systems-On-Chip.</strong> Workshop on Modeling & Simulation of Systems and Applications (ModSim). 2019. <em>Invited Talk</em></li>
+<li><i class="fa-li fa fa-check"></i>K. Bhardwaj, M. Havasi, Y. Yao, D. Brooks, J. Lobato, G.-Y. Wei. <strong>Determining Optimal Coherency Interface for Many-Accelerator SoCs Using Bayesian Optimization.</strong> IEEE Computer Architecture Letters (CAL). 2019. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>K. Bhardwaj, M. Havasi, Y. Yao, D. Brooks, J. Lobato, G.-Y. Wei. <strong>Towards Cost-Aware Coherence Interface Selection for Many-Accelerator SoCs Using Bayesian Optimization.</strong> IEEE/ACM International Conference On Computer Aided Design (ICCAD). 2019. <em>Under submission</em></li>
+<li><i class="fa-li fa fa-check"></i>K. Joshi, V. Fernando, S. Misailovic. <strong>Statistical Algorithmic Profiling for Randomized Approximate Programs.</strong> ACM/IEEE International Conference on Software Engineering (ICSE). 2019. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>K. Swaminathan, R. Bertran, H. Jacobson, P. Kudva, P. Bose. <strong>Automated Generation of Stressmarks for Early-Stage Soft Error Modeling.</strong> IEEE Workshop on Silicon Errors in Logic – System Effects (SELSE). 2019. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>M. Hill, V. Reddi. <strong>Gables: A Roofline Model for Mobile SoCs.</strong> IEEE International Symposium on High-Performance Computer Architecture (HPCA). 2019. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>N. Chandramoorthy, K. Swaminathan, M. Cochet, A. Paidimarri, S. Eldridge, R. Joshi, M. Ziegler,  A. Buyuktosunoglu, P. Bose. <strong>Resilient, Low Voltage Accelerators for High Energy Efficiency.</strong> IEEE International Symposium on High-Performance Computer Architecture (HPCA). 2019. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>P. Bose. <strong>Towards Self-Aware Resilient Systems and Ethical Artificial Intelligence.</strong> O’Reilly AI Conference. 2019. <em>Invited Talk</em></li>
+<li><i class="fa-li fa fa-check"></i>P. Whatmough,  S. Lee, M. Donato, H.-C. Hsueh, S. Xi, U. Gupta, L. Pentecost, G. Ko, D. Brooks, G.-Y. Wei. <strong>A 16nm 25mm2 SoC with a 54.5x Flexibility-Efficiency Range from Dual-Core ARM Cortex-A53, to eFPGA, and Cache Coherent Accelerators.</strong> VLSI Circuits Symposium. 2019. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>S. Lee, P. Whatmough, D. Brooks, G.-Y. Wei. <strong>A 16nm Always-On DNN Processor with Adaptive Clocking and Multi-Cycle Banked SRAMs.</strong> Journal of Solid-State Circuits (JSSC). 2019. <em></em></li>
+<li><i class="fa-li fa fa-check"></i>EPOCHS team presentations. Free and Open source Software Developers' European Meeting (FOSDEM). 2020. <em></em> <button type="button" class="btn btn-link" onclick="window.open('https://fosdem.org/2020/','_blank');">Link</button></li>
+<li><i class="fa-li fa fa-check"></i>J. Leng, A. Buyuktosunoglu, R. Bertran Monfort, P. Bose, Q. Chen, M. Guo, V. Reddi. <strong>Asymmetric Resilience: Exploiting Task-level Idempotency for Transient Error Recovery in Accelerator-based Systems.</strong> IEEE International Symposium on High-Performance Computer Architecture (HPCA). 2020. <em></em></li>
+
+		  </ul>
+
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+	  <!-------------------------------------------- TEAM -------------------------------------------->
+	  
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="team">
+        <div class="my-auto">
+          <h2 class="mb-5">Team Members & Contact</h2>
+          <p class="lead mb-5">
+
+            <div class="row">
+				<div class="col-md-1"></div>
+				<h4>Principal Investigator:</h4>
+            </div>
+            <div class="row">
+				<div class="col-md-1"></div>
+                <div class="col-md-2">
+					<div class="text-center">
+						<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/pradip_bose.jpg" alt="">
+						<p><strong><a target="_blank" href="https://researcher.watson.ibm.com/researcher/view.php?person=us-pbose">Pradip Bose</a></strong><br>IBM Research</p>
+					</div>
+				</div>
+			</div>
+			
+			<br>
+
+            <div class="row">
+				<div class="col-md-1"></div>
+				<h4>Co-Principal Investigators:</h4>
+            </div>
+            <div class="row">
+				<div class="col-md-1"></div>
+                <div class="col-md-2">
+					<div class="text-center">
+						<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/sarita_adve.jpg" alt="">
+						<p><strong><a target="_blank" href="http://sadve.cs.illinois.edu">Sarita Adve</a></strong><br>UIUC</p>
+					</div>
+                </div>
+
+                <div class="col-md-2">
+					<div class="text-center">
+						<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/vikram_adve.jpg" alt="">
+						<p><strong><a target="_blank" href="https://vikram.cs.illinois.edu">Vikram Adve</a></strong><br>UIUC</p>
+					</div>
+                </div>
+
+                <div class="col-md-2">
+					<div class="text-center">
+						<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/sasa_misailovic.jpg" alt="">
+						<p><strong><a target="_blank" href="http://misailo.cs.illinois.edu">Sasa Misailovic</a></strong><br>UIUC</p>
+					</div>
+                </div>
+
+                <div class="col-md-2">
+					<div class="text-center">
+						<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/luca_carloni.jpg" alt="">
+						<p><strong><a target="_blank" href="http://www.cs.columbia.edu/~luca/">Luca Carloni</a></strong><br>Columbia University</p>
+					</div>
+                </div>
+            </div>
+
+            <div class="row">
+				<div class="col-md-1"></div>
+                <div class="col-md-2">
+					<div class="text-center">
+						<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/ken_shepard.jpg" alt="">
+						<p><strong><a target="_blank" href="https://www.ee.columbia.edu/ken-shepard">Kenneth Shepard</a></strong><br>Columbia University</p>
+					</div>
+                </div>
+                <div class="col-md-2">
+					<div class="text-center">
+						<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/david_brooks.jpg" alt="">
+						<p><strong><a target="_blank" href="http://www.eecs.harvard.edu/~dbrooks/">David Brooks</a></strong><br>Harvard University</p>
+					</div>
+                </div>
+
+                <div class="col-md-2">
+					<div class="text-center">
+						<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/gu-yeon_wei.jpg" alt="">
+						<p><strong><a target="_blank" href="https://www.seas.harvard.edu/person/gu-yeon-wei">Gu-Yeon Wei</a></strong><br>Harvard University</p>
+					</div>
+                </div>
+
+                <div class="col-md-2">
+					<div class="text-center">
+						<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/vijay_reddi.jpg" alt="">
+						<p><strong><a target="_blank" href="https://scholar.harvard.edu/vijay-janapa-reddi/home">Vijay Janapa Reddi</a></strong><br>Harvard University</p>
+					</div>
+                </div>
+            </div>
+
+			<br>
+
+            <div class="row">
+				<div class="col-md-1"></div>
+				<h4>Chief Technology Officer:</h4>
+            </div>
+            <div class="row">
+				<div class="col-md-1"></div>
+                <div class="col-md-2">
+					<div class="text-center">
+						<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/augusto_vega.jpg" alt="">
+						<p><strong><a target="_blank" href="https://www.linkedin.com/in/augusto-javier-vega/">Augusto Vega<a></strong><br>IBM Research</p>
+					</div>
+                </div>
+			</div>
+
+			<br><br>
+			
+			<div class="card border-secondary mb-12">
+				<div class="card-header"><a href="mailto:webmaster@example.com">contact@epochs-project.org</a></div>
+				<div class="card-body text-secondary">
+					<p class="card-text"><strong>Contact us for additional information about EPOCHS and discussion of possible collaboration opportunities.</strong></p>
+				</div>
+			</div>
+
+          </p>
+        </div>
+      </section>
+		  
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
+</html>
